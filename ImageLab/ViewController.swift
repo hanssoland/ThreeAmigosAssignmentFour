@@ -14,6 +14,7 @@ class ViewController: UIViewController   {
     var videoModel:VideoModel? = nil
     
     @IBOutlet weak var cameraView: MTKView!
+    
     //MARK: ViewController Hierarchy
     override func viewDidLoad() {
         super.viewDidLoad()
